@@ -7,7 +7,7 @@ Offline research diary for adults with diabetes who use a CGM through **xDrip+**
 > **Not a medical device.** Forecasts, ISF, ICR and all calculated values are research estimates, not dosing recommendations. For adults (18+) only. Make treatment decisions with your doctor and use your CGM or xDrip+ for alarms.
 
 ## Download
-Get the latest APK from **[Releases](../../releases/latest)**. Each release lists the SHA-256 checksum of the APK.
+Get the latest APK from **[Releases](../../releases)**. Each release lists the SHA-256 checksum of the APK.
 
 ## Requirements
 - Android 8.0 or newer (tested on Android 15).
@@ -43,7 +43,7 @@ Free to use. Closed source. See [LICENSE.md](LICENSE.md) and [THIRD_PARTY_NOTICE
 
 > **Не медичний виріб.** Прогнози, ISF, ICR та інші розрахунки — дослідницькі оцінки, а не рекомендації щодо дози. Лише для дорослих (18+).
 
-- **Завантаження:** останній APK у **[Releases](../../releases/latest)**; у кожному релізі вказано SHA-256.
+- **Завантаження:** останній APK у **[Releases](../../releases)**; у кожному релізі вказано SHA-256.
 - **Вимоги:** Android 8.0+, встановлений xDrip+.
 - **Встановлення:** відкрийте APK, дозвольте встановлення з цього джерела, у xDrip+ увімкніть **Inter-app settings → Broadcast locally**, далі — **Довідка** в застосунку.
 - Оновлення встановлюється поверх попередньої версії. Не видаляйте застосунок перед оновленням: це видалить історію.
@@ -54,7 +54,7 @@ Diario de investigación sin conexión para adultos con diabetes que usan un MCG
 
 > **No es un producto sanitario.** Los pronósticos, el ISF, el ICR y demás cálculos son estimaciones de investigación, no recomendaciones de dosis. Solo para adultos (18+).
 
-- **Descarga:** el APK más reciente en **[Releases](../../releases/latest)**; cada versión indica su SHA-256.
+- **Descarga:** el APK más reciente en **[Releases](../../releases)**; cada versión indica su SHA-256.
 - **Requisitos:** Android 8.0+, xDrip+ instalado.
 - **Instalación:** abre el APK, permite instalar desde esta fuente, activa en xDrip+ **Inter-app settings → Broadcast locally** y consulta **Ayuda** en la aplicación.
 - Las actualizaciones se instalan sobre la versión anterior. No desinstales la aplicación antes de actualizar: se borraría el historial.
@@ -65,7 +65,7 @@ Offline-Forschungstagebuch für Erwachsene mit Diabetes, die ein CGM über **xDr
 
 > **Kein Medizinprodukt.** Prognosen, ISF, ICR und andere Berechnungen sind Forschungsschätzungen, keine Dosisempfehlungen. Nur für Erwachsene (18+).
 
-- **Download:** neueste APK unter **[Releases](../../releases/latest)**; jede Version nennt ihre SHA-256-Prüfsumme.
+- **Download:** neueste APK unter **[Releases](../../releases)**; jede Version nennt ihre SHA-256-Prüfsumme.
 - **Voraussetzungen:** Android 8.0+, installiertes xDrip+.
 - **Installation:** APK öffnen, Installation aus dieser Quelle erlauben, in xDrip+ **Inter-app settings → Broadcast locally** einschalten, dann **Hilfe** in der App öffnen.
 - Updates werden über die vorherige Version installiert. Deinstallieren Sie die App vor einem Update nicht: Dabei wird der Verlauf gelöscht.
@@ -76,7 +76,7 @@ Journal de recherche hors ligne pour les adultes atteints de diabète qui utilis
 
 > **Pas un dispositif médical.** Les prévisions, l’ISF, l’ICR et les autres calculs sont des estimations de recherche, pas des recommandations de dose. Réservé aux adultes (18+).
 
-- **Téléchargement :** le dernier APK dans **[Releases](../../releases/latest)** ; chaque version indique son SHA-256.
+- **Téléchargement :** le dernier APK dans **[Releases](../../releases)** ; chaque version indique son SHA-256.
 - **Prérequis :** Android 8.0+, xDrip+ installé.
 - **Installation :** ouvrez l’APK, autorisez l’installation depuis cette source, activez dans xDrip+ **Inter-app settings → Broadcast locally**, puis ouvrez **Aide** dans l’application.
 - Les mises à jour s’installent par-dessus la version précédente. Ne désinstallez pas l’application avant une mise à jour : l’historique serait effacé.
