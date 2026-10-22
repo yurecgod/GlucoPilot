@@ -24,8 +24,8 @@ Get the latest APK from **[Releases](../../releases/latest)**. Each release list
 Updates install over the previous version and keep your data. Do not uninstall the app before updating: uninstalling deletes its local history.
 
 ## Documentation
-Full user guide (also built into the app, works offline):
-[English](docs/help/GlucoPilot_Help_en.html) · [Українська](docs/help/GlucoPilot_Help_uk.html) · [Español](docs/help/GlucoPilot_Help_es.html) · [Deutsch](docs/help/GlucoPilot_Help_de.html) · [Français](docs/help/GlucoPilot_Help_fr.html)
+Full user guide — **[yurecgod.github.io/GlucoPilot](https://yurecgod.github.io/GlucoPilot/)** (also built into the app, works offline):
+[English](https://yurecgod.github.io/GlucoPilot/help/GlucoPilot_Help_en.html) · [Українська](https://yurecgod.github.io/GlucoPilot/help/GlucoPilot_Help_uk.html) · [Español](https://yurecgod.github.io/GlucoPilot/help/GlucoPilot_Help_es.html) · [Deutsch](https://yurecgod.github.io/GlucoPilot/help/GlucoPilot_Help_de.html) · [Français](https://yurecgod.github.io/GlucoPilot/help/GlucoPilot_Help_fr.html)
 
 ## Privacy
 All data stays on your phone. Only search text or barcodes are sent to Open Food Facts. See [PRIVACY.md](PRIVACY.md).
@@ -47,7 +47,7 @@ Free to use. Closed source. See [LICENSE.md](LICENSE.md) and [THIRD_PARTY_NOTICE
 - **Вимоги:** Android 8.0+, встановлений xDrip+.
 - **Встановлення:** відкрийте APK, дозвольте встановлення з цього джерела, у xDrip+ увімкніть **Inter-app settings → Broadcast locally**, далі — **Довідка** в застосунку.
 - Оновлення встановлюється поверх попередньої версії. Не видаляйте застосунок перед оновленням: це видалить історію.
-- **Документація:** [GlucoPilot_Help_uk.html](docs/help/GlucoPilot_Help_uk.html) · **Конфіденційність:** [PRIVACY.md](PRIVACY.md#українська)
+- **Документація:** [GlucoPilot_Help_uk.html](https://yurecgod.github.io/GlucoPilot/help/GlucoPilot_Help_uk.html) · **Конфіденційність:** [PRIVACY.md](PRIVACY.md#українська)
 
 ## Español
 Diario de investigación sin conexión para adultos con diabetes que usan un MCG a través de **xDrip+**. Sin cuenta, sin nube y sin IA generativa.
@@ -58,7 +58,7 @@ Diario de investigación sin conexión para adultos con diabetes que usan un MCG
 - **Requisitos:** Android 8.0+, xDrip+ instalado.
 - **Instalación:** abre el APK, permite instalar desde esta fuente, activa en xDrip+ **Inter-app settings → Broadcast locally** y consulta **Ayuda** en la aplicación.
 - Las actualizaciones se instalan sobre la versión anterior. No desinstales la aplicación antes de actualizar: se borraría el historial.
-- **Documentación:** [GlucoPilot_Help_es.html](docs/help/GlucoPilot_Help_es.html) · **Privacidad:** [PRIVACY.md](PRIVACY.md#español)
+- **Documentación:** [GlucoPilot_Help_es.html](https://yurecgod.github.io/GlucoPilot/help/GlucoPilot_Help_es.html) · **Privacidad:** [PRIVACY.md](PRIVACY.md#español)
 
 ## Deutsch
 Offline-Forschungstagebuch für Erwachsene mit Diabetes, die ein CGM über **xDrip+** nutzen. Kein Konto, keine Cloud, keine generative KI.
@@ -69,7 +69,7 @@ Offline-Forschungstagebuch für Erwachsene mit Diabetes, die ein CGM über **xDr
 - **Voraussetzungen:** Android 8.0+, installiertes xDrip+.
 - **Installation:** APK öffnen, Installation aus dieser Quelle erlauben, in xDrip+ **Inter-app settings → Broadcast locally** einschalten, dann **Hilfe** in der App öffnen.
 - Updates werden über die vorherige Version installiert. Deinstallieren Sie die App vor einem Update nicht: Dabei wird der Verlauf gelöscht.
-- **Dokumentation:** [GlucoPilot_Help_de.html](docs/help/GlucoPilot_Help_de.html) · **Datenschutz:** [PRIVACY.md](PRIVACY.md#deutsch)
+- **Dokumentation:** [GlucoPilot_Help_de.html](https://yurecgod.github.io/GlucoPilot/help/GlucoPilot_Help_de.html) · **Datenschutz:** [PRIVACY.md](PRIVACY.md#deutsch)
 
 ## Français
 Journal de recherche hors ligne pour les adultes atteints de diabète qui utilisent un capteur CGM via **xDrip+**. Sans compte, sans cloud, sans IA générative.
@@ -80,4 +80,4 @@ Journal de recherche hors ligne pour les adultes atteints de diabète qui utilis
 - **Prérequis :** Android 8.0+, xDrip+ installé.
 - **Installation :** ouvrez l’APK, autorisez l’installation depuis cette source, activez dans xDrip+ **Inter-app settings → Broadcast locally**, puis ouvrez **Aide** dans l’application.
 - Les mises à jour s’installent par-dessus la version précédente. Ne désinstallez pas l’application avant une mise à jour : l’historique serait effacé.
-- **Documentation :** [GlucoPilot_Help_fr.html](docs/help/GlucoPilot_Help_fr.html) · **Confidentialité :** [PRIVACY.md](PRIVACY.md#français)
+- **Documentation :** [GlucoPilot_Help_fr.html](https://yurecgod.github.io/GlucoPilot/help/GlucoPilot_Help_fr.html) · **Confidentialité :** [PRIVACY.md](PRIVACY.md#français)
