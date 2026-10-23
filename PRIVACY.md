@@ -2,7 +2,7 @@
 
 [English](#english) · [Українська](#українська) · [Español](#español) · [Deutsch](#deutsch) · [Français](#français)
 
-Last updated: 22 October 2026 · Controller: PilotAI Lab · Contact: pilotailab@gmail.com
+Last updated: 23 October 2026 · Controller: PilotAI Lab · Contact: pilotailab@gmail.com
 
 ## English
 **What is processed.** Glucose readings received from xDrip+, insulin, food, activity and manual meter entries that you record, plus app settings. This is health data.
@@ -11,7 +11,9 @@ Last updated: 22 October 2026 · Controller: PilotAI Lab · Contact: pilotailab@
 
 **What leaves the phone.** Only when you search the food catalog: the search text or barcode is sent to Open Food Facts (openfoodfacts.org), which has its own privacy policy. Insulin import from xDrip+ uses the phone’s local address 127.0.0.1 and does not use the internet.
 
-**Exports.** Files you export yourself (JSON, diagnostics) are saved where you choose. They are not encrypted; you are responsible for them.
+**Exports.** Files you export yourself — the full archive (ZIP with your whole history and settings), JSON, diagnostics — are saved where you choose. They are not encrypted; you are responsible for them.
+
+**Background processing.** While receiving CGM data, the app calculates a glucose forecast on the phone about every 15 minutes to check its accuracy. Nothing is sent anywhere.
 
 **Permissions.** Internet — food search. Notifications and foreground service — receiving CGM data while the screen is off.
 
@@ -28,7 +30,9 @@ Last updated: 22 October 2026 · Controller: PilotAI Lab · Contact: pilotailab@
 
 **Що залишає телефон.** Лише під час пошуку в довіднику продуктів: текст запиту або штрихкод надсилається до Open Food Facts (openfoodfacts.org), який має власну політику конфіденційності. Імпорт інсуліну з xDrip+ використовує локальну адресу телефона 127.0.0.1 без інтернету.
 
-**Експорт.** Файли, які ви експортуєте самі (JSON, діагностика), зберігаються там, де ви оберете. Вони не зашифровані; відповідальність за них несете ви.
+**Експорт.** Файли, які ви експортуєте самі — повний архів (ZIP з усією історією й налаштуваннями), JSON, діагностика, — зберігаються там, де ви оберете. Вони не зашифровані; відповідальність за них несете ви.
+
+**Фонова обробка.** Під час прийому CGM застосунок приблизно раз на 15 хвилин рахує прогноз на телефоні, щоб перевіряти його точність. Нічого нікуди не надсилається.
 
 **Дозволи.** Інтернет — пошук продуктів. Сповіщення й фоновий сервіс — приймання CGM при вимкненому екрані.
 
@@ -43,7 +47,9 @@ Last updated: 22 October 2026 · Controller: PilotAI Lab · Contact: pilotailab@
 
 **Qué sale del teléfono.** Solo al buscar en el catálogo de alimentos: el texto o el código de barras se envía a Open Food Facts (openfoodfacts.org), que tiene su propia política de privacidad. La importación de insulina desde xDrip+ usa la dirección local 127.0.0.1, sin internet.
 
-**Exportaciones.** Los archivos que exportas tú (JSON, diagnóstico) se guardan donde elijas. No están cifrados; eres responsable de ellos.
+**Exportaciones.** Los archivos que exportas tú —el archivo completo (ZIP con todo el historial y los ajustes), JSON, diagnóstico— se guardan donde elijas. No están cifrados; eres responsable de ellos.
+
+**Procesamiento en segundo plano.** Al recibir datos CGM, la aplicación calcula en el teléfono un pronóstico aproximadamente cada 15 minutos para comprobar su precisión. No se envía nada a ningún sitio.
 
 **Permisos.** Internet: búsqueda de alimentos. Notificaciones y servicio en primer plano: recibir datos CGM con la pantalla apagada.
 
@@ -58,7 +64,9 @@ Last updated: 22 October 2026 · Controller: PilotAI Lab · Contact: pilotailab@
 
 **Was das Telefon verlässt.** Nur bei der Suche im Lebensmittelkatalog: Suchtext oder Barcode werden an Open Food Facts (openfoodfacts.org) gesendet, das eine eigene Datenschutzerklärung hat. Der Insulinimport aus xDrip+ nutzt die lokale Adresse 127.0.0.1 ohne Internet.
 
-**Exporte.** Dateien, die Sie selbst exportieren (JSON, Diagnose), werden am gewählten Ort gespeichert. Sie sind nicht verschlüsselt; Sie sind dafür verantwortlich.
+**Exporte.** Dateien, die Sie selbst exportieren – das vollständige Archiv (ZIP mit dem gesamten Verlauf und den Einstellungen), JSON, Diagnose –, werden am gewählten Ort gespeichert. Sie sind nicht verschlüsselt; Sie sind dafür verantwortlich.
+
+**Hintergrundverarbeitung.** Beim Empfang von CGM-Daten berechnet die App etwa alle 15 Minuten auf dem Telefon eine Prognose, um ihre Genauigkeit zu prüfen. Es wird nichts versendet.
 
 **Berechtigungen.** Internet – Lebensmittelsuche. Benachrichtigungen und Vordergrunddienst – CGM-Empfang bei ausgeschaltetem Bildschirm.
 
@@ -73,7 +81,9 @@ Last updated: 22 October 2026 · Controller: PilotAI Lab · Contact: pilotailab@
 
 **Ce qui quitte le téléphone.** Uniquement lors d’une recherche dans le catalogue alimentaire : le texte ou le code-barres est envoyé à Open Food Facts (openfoodfacts.org), qui a sa propre politique de confidentialité. L’import d’insuline depuis xDrip+ utilise l’adresse locale 127.0.0.1, sans internet.
 
-**Exports.** Les fichiers que vous exportez vous-même (JSON, diagnostic) sont enregistrés à l’endroit choisi. Ils ne sont pas chiffrés ; vous en êtes responsable.
+**Exports.** Les fichiers que vous exportez vous-même — l’archive complète (ZIP avec tout l’historique et les paramètres), JSON, diagnostic — sont enregistrés à l’endroit choisi. Ils ne sont pas chiffrés ; vous en êtes responsable.
+
+**Traitement en arrière-plan.** Pendant la réception des données CGM, l’application calcule sur le téléphone une prévision environ toutes les 15 minutes pour vérifier sa précision. Rien n’est envoyé.
 
 **Autorisations.** Internet : recherche d’aliments. Notifications et service au premier plan : réception des données CGM écran éteint.
 
