@@ -10,6 +10,8 @@ Offline research diary for adults with diabetes who use a CGM through **xDrip+**
 - Research lab: insulin and food action curves, personal ISF/ICR by time of day with background drift and data share.
 - Rapid insulin profiles: rapid analogs (NovoRapid, Humalog, Apidra), ultra-rapid (Fiasp, Lyumjev), regular human insulin (Actrapid, Humulin R).
 - Full archive: export/restore the whole history and settings in one file to move to a new phone or tablet.
+- Optional sync to your own Nightscout or Gluroo (off by default) and a “Follower” mode for a second phone.
+- Home-screen widget, glucose in the status bar, quick 💉/🍽 entry; Juggluco can send CGM directly.
 - 5 languages (EN, UK, ES, DE, FR), built-in offline help.
 
 > **Not a medical device.** Forecasts, ISF, ICR and all calculated values are research estimates, not dosing recommendations. For adults (18+) only. Make treatment decisions with your doctor and use your CGM or xDrip+ for alarms.

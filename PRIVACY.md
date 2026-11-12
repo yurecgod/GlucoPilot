@@ -2,20 +2,22 @@
 
 [English](#english) · [Українська](#українська) · [Español](#español) · [Deutsch](#deutsch) · [Français](#français)
 
-Last updated: 23 October 2026 · Controller: PilotAI Lab · Contact: pilotailab@gmail.com
+Last updated: 8 November 2026 · Controller: PilotAI Lab · Contact: pilotailab@gmail.com
 
 ## English
 **What is processed.** Glucose readings received from xDrip+, insulin, food, activity and manual meter entries that you record, plus app settings. This is health data.
 
 **Where it is stored.** Only in the app’s private storage on your phone. There is no account, no server of ours, no analytics, no advertising and no crash reporting. Android backup is disabled for the app.
 
-**What leaves the phone.** Only when you search the food catalog: the search text or barcode is sent to Open Food Facts (openfoodfacts.org), which has its own privacy policy. Insulin import from xDrip+ uses the phone’s local address 127.0.0.1 and does not use the internet.
+**What leaves the phone.** By default, only when you search the food catalog: the search text or barcode is sent to Open Food Facts (openfoodfacts.org), which has its own privacy policy. Insulin import from xDrip+ uses the phone’s local address 127.0.0.1 and does not use the internet.
+
+**Optional sync (Nightscout / Gluroo).** Off by default. If you turn it on in Tools, the app sends over https to the address you enter — your own Nightscout server or your Gluroo account — the last 7 days of the diary, the forecast with IOB/COB and, if you tick it, glucose. A second phone in “Follower” mode downloads the same data from that server. The API_SECRET is stored on the phone only as a SHA-1 hash. The privacy policy of Nightscout hosting or Gluroo applies to data stored there; turning sync off stops sending, and data already on the server stays until you delete it there.
 
 **Exports.** Files you export yourself — the full archive (ZIP with your whole history and settings), JSON, diagnostics — are saved where you choose. They are not encrypted; you are responsible for them.
 
 **Background processing.** While receiving CGM data, the app calculates a glucose forecast on the phone about every 15 minutes to check its accuracy. Nothing is sent anywhere.
 
-**Permissions.** Internet — food search. Notifications and foreground service — receiving CGM data while the screen is off.
+**Permissions.** Internet — food search and optional Nightscout/Gluroo sync. Wake lock — follower updates while the phone sleeps. Home-screen widget — shows glucose only on your device. Notifications and foreground service — receiving CGM data while the screen is off.
 
 **Deletion.** Uninstalling the app or clearing its storage deletes all its data. We hold no copy.
 
@@ -28,13 +30,15 @@ Last updated: 23 October 2026 · Controller: PilotAI Lab · Contact: pilotailab@
 
 **Де зберігаються.** Лише в приватному сховищі застосунку на вашому телефоні. Немає акаунта, нашого сервера, аналітики, реклами чи звітів про збої. Резервне копіювання Android для застосунку вимкнене.
 
-**Що залишає телефон.** Лише під час пошуку в довіднику продуктів: текст запиту або штрихкод надсилається до Open Food Facts (openfoodfacts.org), який має власну політику конфіденційності. Імпорт інсуліну з xDrip+ використовує локальну адресу телефона 127.0.0.1 без інтернету.
+**Що залишає телефон.** За замовчуванням — лише під час пошуку в довіднику продуктів: текст запиту або штрихкод надсилається до Open Food Facts (openfoodfacts.org), який має власну політику конфіденційності. Імпорт інсуліну з xDrip+ використовує локальну адресу телефона 127.0.0.1 без інтернету.
+
+**Необов’язкова синхронізація (Nightscout / Gluroo).** За замовчуванням вимкнена. Якщо ви ввімкнете її в Інструментах, застосунок через https надсилає на вказану вами адресу — ваш власний сервер Nightscout або ваш акаунт Gluroo — щоденник за останні 7 днів, прогноз з IOB/COB і, якщо позначите, глюкозу. Другий телефон у режимі «Спостерігач» завантажує ці самі дані з того сервера. API_SECRET зберігається на телефоні лише як хеш SHA-1. Для даних на сервері діє політика конфіденційності хостингу Nightscout або Gluroo; вимкнення синхронізації зупиняє відправку, а вже відправлені дані лишаються на сервері, доки ви їх там не видалите.
 
 **Експорт.** Файли, які ви експортуєте самі — повний архів (ZIP з усією історією й налаштуваннями), JSON, діагностика, — зберігаються там, де ви оберете. Вони не зашифровані; відповідальність за них несете ви.
 
 **Фонова обробка.** Під час прийому CGM застосунок приблизно раз на 15 хвилин рахує прогноз на телефоні, щоб перевіряти його точність. Нічого нікуди не надсилається.
 
-**Дозволи.** Інтернет — пошук продуктів. Сповіщення й фоновий сервіс — приймання CGM при вимкненому екрані.
+**Дозволи.** Інтернет — пошук продуктів і необов’язкова синхронізація Nightscout/Gluroo. WakeLock — оновлення спостерігача під час сну телефона. Віджет — показує глюкозу лише на вашому пристрої. Сповіщення й фоновий сервіс — приймання CGM при вимкненому екрані.
 
 **Видалення.** Видалення застосунку або очищення його даних видаляє все. Копій у нас немає.
 
@@ -45,13 +49,15 @@ Last updated: 23 October 2026 · Controller: PilotAI Lab · Contact: pilotailab@
 
 **Dónde se guardan.** Solo en el almacenamiento privado de la aplicación en tu teléfono. No hay cuenta, servidor propio, analítica, publicidad ni informes de errores. La copia de seguridad de Android está desactivada para la aplicación.
 
-**Qué sale del teléfono.** Solo al buscar en el catálogo de alimentos: el texto o el código de barras se envía a Open Food Facts (openfoodfacts.org), que tiene su propia política de privacidad. La importación de insulina desde xDrip+ usa la dirección local 127.0.0.1, sin internet.
+**Qué sale del teléfono.** Por defecto, solo al buscar en el catálogo de alimentos: el texto o el código de barras se envía a Open Food Facts (openfoodfacts.org), que tiene su propia política de privacidad. La importación de insulina desde xDrip+ usa la dirección local 127.0.0.1, sin internet.
+
+**Sincronización opcional (Nightscout / Gluroo).** Desactivada por defecto. Si la activas en Herramientas, la aplicación envía por https a la dirección que indiques —tu propio servidor Nightscout o tu cuenta de Gluroo— el diario de los últimos 7 días, el pronóstico con IOB/COB y, si lo marcas, la glucosa. Un segundo teléfono en modo «Observador» descarga esos mismos datos de ese servidor. El API_SECRET se guarda en el teléfono solo como hash SHA-1. A los datos del servidor se aplica la política de privacidad del alojamiento de Nightscout o de Gluroo; desactivar la sincronización detiene el envío y los datos ya enviados permanecen en el servidor hasta que los borres allí.
 
 **Exportaciones.** Los archivos que exportas tú —el archivo completo (ZIP con todo el historial y los ajustes), JSON, diagnóstico— se guardan donde elijas. No están cifrados; eres responsable de ellos.
 
 **Procesamiento en segundo plano.** Al recibir datos CGM, la aplicación calcula en el teléfono un pronóstico aproximadamente cada 15 minutos para comprobar su precisión. No se envía nada a ningún sitio.
 
-**Permisos.** Internet: búsqueda de alimentos. Notificaciones y servicio en primer plano: recibir datos CGM con la pantalla apagada.
+**Permisos.** Internet: búsqueda de alimentos y sincronización opcional con Nightscout/Gluroo. Wake lock: actualizaciones del observador con el teléfono en reposo. Widget: muestra la glucosa solo en tu dispositivo. Notificaciones y servicio en primer plano: recibir datos CGM con la pantalla apagada.
 
 **Eliminación.** Desinstalar la aplicación o borrar su almacenamiento elimina todos sus datos. No guardamos copias.
 
@@ -62,13 +68,15 @@ Last updated: 23 October 2026 · Controller: PilotAI Lab · Contact: pilotailab@
 
 **Wo sie gespeichert werden.** Nur im privaten Speicher der App auf Ihrem Telefon. Es gibt kein Konto, keinen eigenen Server, keine Analyse, keine Werbung und keine Absturzberichte. Die Android-Sicherung ist für die App deaktiviert.
 
-**Was das Telefon verlässt.** Nur bei der Suche im Lebensmittelkatalog: Suchtext oder Barcode werden an Open Food Facts (openfoodfacts.org) gesendet, das eine eigene Datenschutzerklärung hat. Der Insulinimport aus xDrip+ nutzt die lokale Adresse 127.0.0.1 ohne Internet.
+**Was das Telefon verlässt.** Standardmäßig nur bei der Suche im Lebensmittelkatalog: Suchtext oder Barcode werden an Open Food Facts (openfoodfacts.org) gesendet, das eine eigene Datenschutzerklärung hat. Der Insulinimport aus xDrip+ nutzt die lokale Adresse 127.0.0.1 ohne Internet.
+
+**Optionale Synchronisierung (Nightscout / Gluroo).** Standardmäßig aus. Wenn Sie sie in den Werkzeugen einschalten, sendet die App per https an die von Ihnen angegebene Adresse – Ihren eigenen Nightscout-Server oder Ihr Gluroo-Konto – das Tagebuch der letzten 7 Tage, die Prognose mit IOB/COB und, falls angekreuzt, die Glukose. Ein zweites Telefon im Modus „Beobachter“ lädt dieselben Daten von diesem Server. Das API_SECRET wird auf dem Telefon nur als SHA-1-Hash gespeichert. Für Daten auf dem Server gilt die Datenschutzerklärung des Nightscout-Hostings bzw. von Gluroo; das Ausschalten stoppt das Senden, bereits gesendete Daten bleiben auf dem Server, bis Sie sie dort löschen.
 
 **Exporte.** Dateien, die Sie selbst exportieren – das vollständige Archiv (ZIP mit dem gesamten Verlauf und den Einstellungen), JSON, Diagnose –, werden am gewählten Ort gespeichert. Sie sind nicht verschlüsselt; Sie sind dafür verantwortlich.
 
 **Hintergrundverarbeitung.** Beim Empfang von CGM-Daten berechnet die App etwa alle 15 Minuten auf dem Telefon eine Prognose, um ihre Genauigkeit zu prüfen. Es wird nichts versendet.
 
-**Berechtigungen.** Internet – Lebensmittelsuche. Benachrichtigungen und Vordergrunddienst – CGM-Empfang bei ausgeschaltetem Bildschirm.
+**Berechtigungen.** Internet – Lebensmittelsuche und optionale Nightscout-/Gluroo-Synchronisierung. Wake Lock – Beobachter-Aktualisierungen im Ruhezustand. Widget – zeigt die Glukose nur auf Ihrem Gerät. Benachrichtigungen und Vordergrunddienst – CGM-Empfang bei ausgeschaltetem Bildschirm.
 
 **Löschung.** Deinstallation oder Löschen des App-Speichers entfernt alle Daten. Wir besitzen keine Kopie.
 
@@ -79,13 +87,15 @@ Last updated: 23 October 2026 · Controller: PilotAI Lab · Contact: pilotailab@
 
 **Lieu de stockage.** Uniquement dans le stockage privé de l’application sur votre téléphone. Pas de compte, pas de serveur à nous, pas d’analyse, de publicité ni de rapports de plantage. La sauvegarde Android est désactivée pour l’application.
 
-**Ce qui quitte le téléphone.** Uniquement lors d’une recherche dans le catalogue alimentaire : le texte ou le code-barres est envoyé à Open Food Facts (openfoodfacts.org), qui a sa propre politique de confidentialité. L’import d’insuline depuis xDrip+ utilise l’adresse locale 127.0.0.1, sans internet.
+**Ce qui quitte le téléphone.** Par défaut, uniquement lors d’une recherche dans le catalogue alimentaire : le texte ou le code-barres est envoyé à Open Food Facts (openfoodfacts.org), qui a sa propre politique de confidentialité. L’import d’insuline depuis xDrip+ utilise l’adresse locale 127.0.0.1, sans internet.
+
+**Synchronisation facultative (Nightscout / Gluroo).** Désactivée par défaut. Si vous l’activez dans Outils, l’application envoie en https à l’adresse que vous indiquez — votre propre serveur Nightscout ou votre compte Gluroo — le journal des 7 derniers jours, la prévision avec IOB/COB et, si vous le cochez, la glucose. Un second téléphone en mode « Observateur » télécharge ces mêmes données depuis ce serveur. L’API_SECRET n’est stocké sur le téléphone que sous forme de hachage SHA-1. La politique de confidentialité de l’hébergeur Nightscout ou de Gluroo s’applique aux données stockées sur le serveur ; désactiver la synchronisation arrête l’envoi, et les données déjà envoyées y restent jusqu’à ce que vous les supprimiez.
 
 **Exports.** Les fichiers que vous exportez vous-même — l’archive complète (ZIP avec tout l’historique et les paramètres), JSON, diagnostic — sont enregistrés à l’endroit choisi. Ils ne sont pas chiffrés ; vous en êtes responsable.
 
 **Traitement en arrière-plan.** Pendant la réception des données CGM, l’application calcule sur le téléphone une prévision environ toutes les 15 minutes pour vérifier sa précision. Rien n’est envoyé.
 
-**Autorisations.** Internet : recherche d’aliments. Notifications et service au premier plan : réception des données CGM écran éteint.
+**Autorisations.** Internet : recherche d’aliments et synchronisation facultative Nightscout/Gluroo. Wake lock : mises à jour de l’observateur en veille. Widget : affiche la glucose uniquement sur votre appareil. Notifications et service au premier plan : réception des données CGM écran éteint.
 
 **Suppression.** Désinstaller l’application ou effacer son stockage supprime toutes ses données. Nous n’en conservons aucune copie.
 
